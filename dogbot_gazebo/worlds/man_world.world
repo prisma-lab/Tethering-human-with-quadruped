@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <actor name="actor">
+    <pose>0 1 1 0 0 0</pose>
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+      <animation name="walking">
+        <filename>walk.dae</filename>
+      </animation>
+      <!--animation name="standing">
+        <filename>stand.dae</filename>
+      </animation-->
+      <!--script>
+        <trajectory id="0" type="standing">
+          <waypoint>
+            <time>0</time>
+            <pose>1 0 0 0 0 -3.14</pose>
+          </waypoint>
+          <waypoint>
+            <time>8</time>
+            <pose>1 0 0 0 0 -3.14</pose>
+          </waypoint>
+        </trajectory>
+        <trajectory id="0" type="walking">
+          <waypoint>
+            <time>8</time>
+            <pose>1 0 0 0 0 -3.14</pose>
+          </waypoint>
+          <waypoint>
+            <time>23.25</time>
+            <pose>-1 0 0 0 0 -3.14</pose>
+          </waypoint>
+        </trajectory>
+        <trajectory id="2" type="standing">
+          <waypoint>
+            <time>23.25</time>
+            <pose>-1 0 0 0 0 -3.14</pose>
+          </waypoint>
+          <waypoint>
+            <time>200</time>
+            <pose>-1 0 0 0 0 -3.14</pose>
+          </waypoint>
+        </trajectory>
+        <trajectory id="0" type="walking">
+          <waypoint>
+            <time>0</time>
+            <pose>0 1 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>8</time>
+            <pose>0 0.5 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>8</time>
+            <pose>0 0.5 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>23.25</time>
+            <pose>0 -3.5 0 0 0 -1.57</pose>
+          </waypoint>
+        </trajectory>
+        <trajectory id="1" type="standing">
+          <waypoint>
+            <time>23.25</time>
+            <pose>0 -3.5 0 0 0 -1.57</pose>
+          </waypoint>
+          <waypoint>
+            <time>200</time>
+            <pose>0 -3.5 0 0 0 -1.57</pose>
+          </waypoint>
+        </trajectory>
+      </script-->
+    <plugin name="actor_pos_plugin" filename="libactor_pos_plugin.so">
+    </plugin>   
+    </actor>
+  </world>
+</sdf>

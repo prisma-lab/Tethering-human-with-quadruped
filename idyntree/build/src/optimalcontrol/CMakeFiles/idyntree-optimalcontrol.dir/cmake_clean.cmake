@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "../../lib/libidyntree-optimalcontrol.pdb"
+  "../../lib/libidyntree-optimalcontrol.so"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/AlglibInterfaceNotImplemented.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/Constraint.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/ConstraintsGroup.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/ControlledDynamicalSystem.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/Controller.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/Cost.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/DynamicalSystem.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/FixedStepIntegrator.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/ForwardEuler.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/ImplicitTrapezoidal.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/Integrator.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/IpoptInterface.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/L2NormCost.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/LinearConstraint.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/LinearCost.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/LinearMPC.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/LinearSystem.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/MPC.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/MultiBodySystem.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/MultipleShootingSolver.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/OptimalControlProblem.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/OptimalControlSolver.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/OptimizationProblem.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/Optimizer.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/OsqpInterfaceNotImplemented.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/QuadraticCost.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/QuadraticLikeCost.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/RK4.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/SparsityStructure.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/SystemLineariser.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/TimeRange.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/TimeVaryingObject.cpp.o"
+  "CMakeFiles/idyntree-optimalcontrol.dir/src/WorhpInterfaceNotImplemented.cpp.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/idyntree-optimalcontrol.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

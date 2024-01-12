@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libidyntree-visualization.so -o ../../lib/libidyntree-visualization.so CMakeFiles/idyntree-visualization.dir/src/Visualizer.cpp.o  -Wl,-rpath,/home/jcacace/quad_ws/src/idyntree/build/lib: ../../lib/libidyntree-model.so ../../lib/libidyntree-core.so 
