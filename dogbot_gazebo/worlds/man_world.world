@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <actor name="actor">
+      <pose>0 0 1 0 0 0</pose>
+        <skin>
+          <filename>walk.dae</filename>
+        </skin>
+        <animation name="walking">
+          <filename>walk.dae</filename>
+        </animation>
+
+        <plugin name="actor_pos_plugin" filename="libactor_pos_plugin.so">
+        </plugin>   
+    </actor>
+    
+    <!--
+    <include>
+      <name>wall1</name>
+      <pose> 3.8 -3.04 0.02 0 0 0.0</pose>
+      <uri>model://grey_wall</uri>
+    </include>
+
+    <include>
+      <name>wall2</name>
+      <pose> 8.7 2.5 0.02 0 0 1.57</pose>
+      <uri>model://grey_wall</uri>
+    </include>
+
+    <include>
+      <name>wall3</name>
+      <pose> 4 6 0.02 0 0 0</pose>
+      <uri>model://grey_wall</uri>
+    </include>
+
+
+    <include>
+      <name>wall4</name>
+      <pose>8 -7 0.02 0 0 -1.57</pose>
+      <uri>model://grey_wall</uri>
+    </include>
+    -->
+  </world>
+</sdf>

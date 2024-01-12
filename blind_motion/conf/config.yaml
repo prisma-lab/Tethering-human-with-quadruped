@@ -1,0 +1,6 @@
+lidar_topic: /laser/scan
+cmd_vel_topic: /cmd_vel
+robot_name: laser
+
+
+

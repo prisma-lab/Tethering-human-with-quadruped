@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jcacace/dev/quad_ws/src/tethered_dog/idyntree/extern/fpconv/fpconv.c
+stdbool.h
+-
+string.h
+-
+fpconv.h
+/home/jcacace/dev/quad_ws/src/tethered_dog/idyntree/extern/fpconv/fpconv.h
+powers.h
+/home/jcacace/dev/quad_ws/src/tethered_dog/idyntree/extern/fpconv/powers.h
+
+/home/jcacace/dev/quad_ws/src/tethered_dog/idyntree/extern/fpconv/fpconv.h
+
+/home/jcacace/dev/quad_ws/src/tethered_dog/idyntree/extern/fpconv/powers.h
+stdint.h
+-
+

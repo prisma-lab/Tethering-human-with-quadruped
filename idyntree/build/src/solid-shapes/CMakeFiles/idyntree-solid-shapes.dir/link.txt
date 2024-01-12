@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libidyntree-solid-shapes.so -o ../../lib/libidyntree-solid-shapes.so CMakeFiles/idyntree-solid-shapes.dir/src/InertialParametersSolidShapesHelpers.cpp.o  -Wl,-rpath,/home/jcacace/dev/quad_ws/src/tethered_dog/idyntree/build/lib: ../../lib/libidyntree-model.so ../../lib/libidyntree-core.so 
